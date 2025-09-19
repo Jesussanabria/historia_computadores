@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Turing - Padre de la Computación Moderna</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a69bd);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        nav {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        
+        .nav-item {
+            text-align: center;
+        }
+        
+        .nav-item a {
+            display: block;
+            padding: 10px;
+            background-color: #4a69bd;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        
+        .nav-item a:hover {
+            background-color: #2c3e50;
+            transform: translateY(-3px);
+        }
+        
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .scientist-card {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .scientist-card img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 5px solid #4a69bd;
+        }
+        
+        .scientist-card h2 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .scientist-card p {
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Alan Turing</h1>
+            <p>Padre de la computación moderna</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <nav>
+            <div class="nav-grid">
+                <div class="nav-item"><a href="/">Inicio</a></div>
+                <div class="nav-item"><a href="/babbage">Babbage</a></div>
+                <div class="nav-item"><a href="/berners-lee">Berners-Lee</a></div>
+                <div class="nav-item"><a href="/clarke">Clarke</a></div>
+                <div class="nav-item"><a href="/hamilton">Hamilton</a></div>
+                <div class="nav-item"><a href="/hopper">Hopper</a></div>
+                <div class="nav-item"><a href="/lovelace">Lovelace</a></div>
+                <div class="nav-item"><a href="/turing">Turing</a></div>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <div class="scientist-card">
+                <img src="images/Alan.jpg" alt="Alan Turing">
+                <h2>Alan Turing (1912-1954)</h2>
+                <p>Alan Mathison Turing fue un matemático, lógico, científico de la computación, criptógrafo, filósofo y biólogo teórico británico. Es considerado uno de los padres de la ciencia de la computación y precursor de la informática moderna.</p>
+                <p>Durante la Segunda Guerra Mundial, trabajó en descifrar los códigos nazis, particularmente los de la máquina Enigma, y durante un tiempo fue el director de la sección Naval Enigma de Bletchley Park. Se ha estimado que su trabajo acortó la duración de esa guerra entre dos y cuatro años.</p>
+                <p>Formuló su propia versión de la hoy ampliamente aceptada tesis de Church-Turing, la cual postula que cualquier modelo computacional existente tiene las mismas capacidades algorítmicas, o un subconjunto, de las que tiene una máquina de Turing.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Sitio web de Científicos de la Computación - 2025</p>
+        </footer>
+    </div>
+</body>
+</html>

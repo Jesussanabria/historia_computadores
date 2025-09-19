@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Babbage - Padre de la Computación</title>
+    <style>
+        /* Mismo estilo que la página principal */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a69bd);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        nav {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        
+        .nav-item {
+            text-align: center;
+        }
+        
+        .nav-item a {
+            display: block;
+            padding: 10px;
+            background-color: #4a69bd;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        
+        .nav-item a:hover {
+            background-color: #2c3e50;
+            transform: translateY(-3px);
+        }
+        
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .scientist-card {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .scientist-card img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 5px solid #4a69bd;
+        }
+        
+        .scientist-card h2 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .scientist-card p {
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Charles Babbage</h1>
+            <p>El padre de la computación</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <nav>
+            <div class="nav-grid">
+                <div class="nav-item"><a href="/">Inicio</a></div>
+                <div class="nav-item"><a href="/babbage">Babbage</a></div>
+                <div class="nav-item"><a href="/berners-lee">Berners-Lee</a></div>
+                <div class="nav-item"><a href="/clarke">Clarke</a></div>
+                <div class="nav-item"><a href="/hamilton">Hamilton</a></div>
+                <div class="nav-item"><a href="/hopper">Hopper</a></div>
+                <div class="nav-item"><a href="/lovelace">Lovelace</a></div>
+                <div class="nav-item"><a href="/turing">Turing</a></div>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <div class="scientist-card">
+                <img src="images/babbage.jpg" alt="Charles Babbage">
+                <h2>Charles Babbage (1791-1871)</h2>
+                <p>Charles Babbage fue un matemático y científico de la computación británico. Diseñó y desarrolló parcialmente una calculadora mecánica capaz de calcular tablas de funciones numéricas por el método de diferencias. También diseñó, pero nunca construyó, la analítica para ejecutar programas de tabulación o computación; por estos inventos se le considera como una de las primeras personas en concebir la idea de lo que hoy llamaríamos una computadora, por lo que se le considera como "El padre de la computación".</p>
+                <p>En el Museo de Ciencias de Londres se exhiben partes de sus mecanismos inconclusos. Parte de su cerebro conservado en formol se exhibe en el Royal College of Surgeons of England.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Sitio web de Científicos de la Computación - 2025</p>
+        </footer>
+    </div>
+</body>
+</html>

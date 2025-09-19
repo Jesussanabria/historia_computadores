@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Hopper - Pionera de la Programación</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a69bd);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        nav {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        
+        .nav-item {
+            text-align: center;
+        }
+        
+        .nav-item a {
+            display: block;
+            padding: 10px;
+            background-color: #4a69bd;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        
+        .nav-item a:hover {
+            background-color: #2c3e50;
+            transform: translateY(-3px);
+        }
+        
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .scientist-card {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .scientist-card img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 5px solid #4a69bd;
+        }
+        
+        .scientist-card h2 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .scientist-card p {
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Grace Hopper</h1>
+            <p>Pionera de la programación informática</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <nav>
+            <div class="nav-grid">
+                <div class="nav-item"><a href="/">Inicio</a></div>
+                <div class="nav-item"><a href="/babbage">Babbage</a></div>
+                <div class="nav-item"><a href="/berners-lee">Berners-Lee</a></div>
+                <div class="nav-item"><a href="/clarke">Clarke</a></div>
+                <div class="nav-item"><a href="/hamilton">Hamilton</a></div>
+                <div class="nav-item"><a href="/hopper">Hopper</a></div>
+                <div class="nav-item"><a href="/lovelace">Lovelace</a></div>
+                <div class="nav-item"><a href="/turing">Turing</a></div>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <div class="scientist-card">
+                <img src="images/Hopper.jpg" alt="Grace Hopper">
+                <h2>Grace Hopper (1906-1992)</h2>
+                <p>Grace Murray Hopper fue una científica de la computación y militar estadounidense con grado de contraalmirante. Fue pionera en el mundo de las ciencias de la computación y la primera programadora que utilizó el Mark I.</p>
+                <p>Entre las décadas de los 50 y 60, desarrolló el primer compilador para un lenguaje de programación, así como también propició métodos de validación. Popularizó la idea de los lenguajes de programación independientes de la máquina, lo que derivó en el desarrollo de COBOL, un lenguaje de alto nivel de programación que aún se utiliza.</p>
+                <p>Hopper intentó alistarse en la marina estadounidense durante la Segunda Guerra Mundial, pero debió unirse a las reservas de la armada porque tenía 34 años. Era conocida por sus amistades como "Amazing Grace".</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Sitio web de Científicos de la Computación - 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
